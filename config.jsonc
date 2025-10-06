@@ -1,0 +1,89 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/FunnyCat.png",
+    "type": "sixel",
+    "height": 10,
+    "width": 24,
+    "padding": {
+      "top": 4,
+      "left": 2,
+    },
+  },
+  "display": {
+    "separator": " ",
+  },
+  "modules": [
+    "break",
+    "break",
+    {
+      "type": "title",
+      "keyWidth": 10,
+    },
+    "break",
+    {
+      "type": "os",
+      "key": " ",
+      "keyColor": "38;2;156;138;222",
+    },
+    {
+      "type": "kernel",
+      "key": " ",
+      "keyColor": "38;2;156;138;222",
+    },
+    {
+      "type": "packages",
+      "format": "{} (dnf)",
+      "key": " ",
+      "keyColor": "38;2;156;138;222",
+    },
+    {
+      "type": "shell",
+      "key": " ",
+      "keyColor": "38;2;156;138;222",
+    },
+    {
+      "type": "terminal",
+      "key": " ",
+      "keyColor": "38;2;156;138;222",
+    },
+    {
+      "type": "wm",
+      "key": " ",
+      "keyColor": "38;2;156;138;222",
+    },
+    {
+      "type": "cursor",
+      "key": " ",
+      "keyColor": "38;2;156;138;222",
+    },
+    {
+      "type": "terminalfont",
+      "key": " ",
+      "keyColor": "38;2;156;138;222",
+    },
+    {
+      "type": "uptime",
+      "key": " ",
+      "keyColor": "38;2;156;138;222",
+    },
+    {
+      "type": "datetime",
+      "format": "{1}-{3}-{11}",
+      "key": " ",
+      "keyColor": "38;2;156;138;222",
+    },
+    {
+      "type": "media",
+      "key": "󰝚 ",
+      "keyColor": "38;2;156;138;222",
+    },
+    {
+      "type": "player",
+      "key": " ",
+      "keyColor": "38;2;156;138;222",
+    },
+    "break",
+    "break",
+  ],
+}
